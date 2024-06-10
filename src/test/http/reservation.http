@@ -4,7 +4,7 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjQyOTAsImV4cCI6MTY5OTE2Nzg5MH0.XieLjsn-RvTyNnENW6PvAsunfHwa1V1wFDhoi0IP9cT4ZWBc7VQF4vGgjt2OqoSNHDIhocyUgDctpY0WSgFTwg
 
 {
-    "reservationDate": "2023-11-05T16:00:00"
+    "reservationDate": "2024-06-10T16:00:00"
 }
 
 ### update reservation
@@ -13,7 +13,7 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjQyOTAsImV4cCI6MTY5OTE2Nzg5MH0.XieLjsn-RvTyNnENW6PvAsunfHwa1V1wFDhoi0IP9cT4ZWBc7VQF4vGgjt2OqoSNHDIhocyUgDctpY0WSgFTwg
 
 {
-    "reservationDate": "2023-11-05T16:00:00"
+    "reservationDate": "2024-06-10T16:00:00"
 }
 
 ### cancle reservation
@@ -25,7 +25,7 @@ GET http://localhost:8080/reservation/list
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiZXJyeSIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjU3MTUsImV4cCI6MTY5OTE2OTMxNX0.IoHIXBnRgPJIpmdm5qXMMOu53odMZRCL5om2ObgZHBfpe5crRkMjZ7v2YDKDPySV5PoTfAM5Gt01o6o-kgy5Ng
 
 ### get reseravtionList (Partner)
-GET http://localhost:8080/reservation/list/5?date=2023-11-05
+GET http://localhost:8080/reservation/list/5?date=2024-06-10
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYW5hbmEiLCJtZW1iZXJUeXBlIjoiUk9MRV9QQVJUTkVSIiwiaWF0IjoxNjk5MTY1ODY3LCJleHAiOjE2OTkxNjk0Njd9.iZi4CnWAJcSlYjNLriy_AaNwT21O5x8avfE5xbuJ8JEi92iCDIGlWpyV_b2rWERmobpzr3BN0wITHr_gQBRhCg
 
 ### approve reservation

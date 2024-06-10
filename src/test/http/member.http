@@ -4,9 +4,9 @@ Content-Type: application/json
 
 {
     "userId": "user",
-    "password": "8888",
+    "password": "1234",
     "name": "사용자",
-    "phone": "010-8888-8888",
+    "phone": "010-1234-56789",
     "memberType": "ROLE_USER"
 }
 
@@ -15,8 +15,8 @@ POST http://localhost:8080/user/signin
 Content-Type: application/json
 
 {
-    "userId": "melon",
-    "password": "4444"
+    "userId": "pizza",
+    "password": "7891"
 }
 
 ### delete member

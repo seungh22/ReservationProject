@@ -4,10 +4,10 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcHBsZSIsIm1lbWJlclR5cGUiOiJST0xFX1BBUlRORVIiLCJpYXQiOjE2OTkxNjMxMTEsImV4cCI6MTY5OTE2NjcxMX0.GKv7TBJmgJLVatANqkDbx78ErO-CmdxpnbZx2Es9KQWtvQeD-ZMfSPQu_1thQvHugRJ0fGkueC3DlfWb0O0PKQ
 
 {
-    "name": "전주 콩나물 국밥",
-    "address": "경기도 광주시",
-    "description": "해장에는 콩나물국밥",
-    "contact": "031-111-1111",
+    "name": "요거트 아이스크림의 정석",
+    "address": "서울특별시 노원구",
+    "description": "아이스크림보다 요거트",
+    "contact": "02-111-1111",
     "open": "08:00:00",
     "close": "20:00:00"
 }
@@ -18,10 +18,10 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcHBsZSIsIm1lbWJlclR5cGUiOiJST0xFX1BBUlRORVIiLCJpYXQiOjE2OTkxNjMxMTEsImV4cCI6MTY5OTE2NjcxMX0.GKv7TBJmgJLVatANqkDbx78ErO-CmdxpnbZx2Es9KQWtvQeD-ZMfSPQu_1thQvHugRJ0fGkueC3DlfWb0O0PKQ
 
 {
-    "name": "24시 전주 콩나물 국밥",
-    "address": "경기도 용인시 수지구 동천동",
-    "description": "족발과 당면의 만남",
-    "contact": "031-111-1111",
+    "name": "모두의 카페",
+    "address": "서울특별시 노원구 중계동",
+    "description": "디저트와 커피",
+    "contact": "02-111-1111",
     "open": "18:00:00",
     "close": "01:00:00"
 }

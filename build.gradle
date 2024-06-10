@@ -35,6 +35,12 @@ dependencies {
     runtimeOnly 'com.mysql:mysql-connector-j:8.0.33'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation 'io.dropwizard.metrics:metrics-core:4.2.12'
+    implementation 'io.dropwizard.metrics:metrics-healthchecks:4.2.12'
+
+    implementation 'io.micrometer:micrometer-core:1.10.5'
+    implementation 'io.micrometer:micrometer-registry-prometheus:1.10.5'
 }
 
 tasks.named('test') {
