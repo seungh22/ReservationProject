@@ -1,0 +1,37 @@
+### reserve store
+POST http://localhost:8080/reservation/5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjQyOTAsImV4cCI6MTY5OTE2Nzg5MH0.XieLjsn-RvTyNnENW6PvAsunfHwa1V1wFDhoi0IP9cT4ZWBc7VQF4vGgjt2OqoSNHDIhocyUgDctpY0WSgFTwg
+
+{
+    "reservationDate": "2023-11-05T16:00:00"
+}
+
+### update reservation
+PATCH http://localhost:8080/reservation/11
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjQyOTAsImV4cCI6MTY5OTE2Nzg5MH0.XieLjsn-RvTyNnENW6PvAsunfHwa1V1wFDhoi0IP9cT4ZWBc7VQF4vGgjt2OqoSNHDIhocyUgDctpY0WSgFTwg
+
+{
+    "reservationDate": "2023-11-05T16:00:00"
+}
+
+### cancle reservation
+DELETE http://localhost:8080/reservation/10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjQyOTAsImV4cCI6MTY5OTE2Nzg5MH0.XieLjsn-RvTyNnENW6PvAsunfHwa1V1wFDhoi0IP9cT4ZWBc7VQF4vGgjt2OqoSNHDIhocyUgDctpY0WSgFTwg
+
+### get reservationList (User)
+GET http://localhost:8080/reservation/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiZXJyeSIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjU3MTUsImV4cCI6MTY5OTE2OTMxNX0.IoHIXBnRgPJIpmdm5qXMMOu53odMZRCL5om2ObgZHBfpe5crRkMjZ7v2YDKDPySV5PoTfAM5Gt01o6o-kgy5Ng
+
+### get reseravtionList (Partner)
+GET http://localhost:8080/reservation/list/5?date=2023-11-05
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYW5hbmEiLCJtZW1iZXJUeXBlIjoiUk9MRV9QQVJUTkVSIiwiaWF0IjoxNjk5MTY1ODY3LCJleHAiOjE2OTkxNjk0Njd9.iZi4CnWAJcSlYjNLriy_AaNwT21O5x8avfE5xbuJ8JEi92iCDIGlWpyV_b2rWERmobpzr3BN0wITHr_gQBRhCg
+
+### approve reservation
+PATCH http://localhost:8080/reservation/approval/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYW5hbmEiLCJtZW1iZXJUeXBlIjoiUk9MRV9QQVJUTkVSIiwiaWF0IjoxNjk5MTY2MjMwLCJleHAiOjE2OTkxNjk4MzB9.3S06sKRdPoAKZcWwhDbIkw2ZNiCUmb7iKw89TbYao9Ih5V1xrU4hKu5vJRmYUVTS79TLbs0za_44mZfqb5o1CA
+
+### refuse reservation
+PATCH http://localhost:8080/reservation/refusal/10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYW5hbmEiLCJtZW1iZXJUeXBlIjoiUk9MRV9QQVJUTkVSIiwiaWF0IjoxNjk5MTY2MjMwLCJleHAiOjE2OTkxNjk4MzB9.3S06sKRdPoAKZcWwhDbIkw2ZNiCUmb7iKw89TbYao9Ih5V1xrU4hKu5vJRmYUVTS79TLbs0za_44mZfqb5o1CA

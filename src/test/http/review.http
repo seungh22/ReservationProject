@@ -1,0 +1,28 @@
+### add review
+POST http://localhost:8080/review/8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjY5MDAsImV4cCI6MTY5OTE3MDUwMH0.WA_fwHPfqDvXAqNIf18A7wFUjVHpIqbPgWL6GnX0eYZgofhCPJs9JqtT8lFnUs2SF7iu2TAOyKDeSck1MS-W4Q
+
+{
+    "content": "동그랑땡 맛집 인정입니다22222",
+    "rating": 3.5
+}
+
+### update review
+PUT http://localhost:8080/review/16
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjY5MDAsImV4cCI6MTY5OTE3MDUwMH0.WA_fwHPfqDvXAqNIf18A7wFUjVHpIqbPgWL6GnX0eYZgofhCPJs9JqtT8lFnUs2SF7iu2TAOyKDeSck1MS-W4Q
+
+{
+    "content": "동그랑땡",
+    "rating": 3.5
+}
+
+### delete review
+DELETE http://localhost:8080/review/16
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZWxvbiIsIm1lbWJlclR5cGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2OTkxNjY5MDAsImV4cCI6MTY5OTE3MDUwMH0.WA_fwHPfqDvXAqNIf18A7wFUjVHpIqbPgWL6GnX0eYZgofhCPJs9JqtT8lFnUs2SF7iu2TAOyKDeSck1MS-W4Q
+
+
+### show reviews
+GET http://localhost:8080/review/2

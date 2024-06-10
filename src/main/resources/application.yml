@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/reservation
+    username: root
+    password: choco025874
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    defer-datasource-initialization: true
+  jwt:
+    secret: emVyb2Jhc2VfdGVjaG5pY2FsX2Fzc2lnbm1lbnRfcmVzZXJ2YXRpb25fc2VydmljZV9zZWNyZXRLZXkK=
+  sql:
+    init:
+      mode: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

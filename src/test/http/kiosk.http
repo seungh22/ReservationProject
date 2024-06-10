@@ -1,0 +1,9 @@
+### confirm reservation
+PATCH http://localhost:8080/kiosk/confirm/9
+Content-Type: application/json
+
+{
+    "userId": "melon",
+    "name" : "이메론",
+    "phone": "010-4444-4444"
+}
